@@ -10,7 +10,7 @@ sudo apt-get install byacc flex -y
 sudo apt-get install openjdk-8-jdk -y
 export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-armhf/
 sudo apt-get install cmake -y
-curl https://www.amazontrust.com/repository/SFSRootCAG2.pem -o /etc/ssl/cert.pem
+sudo curl https://www.amazontrust.com/repository/SFSRootCAG2.pem -o /etc/ssl/cert.pem
 git clone https://github.com/awslabs/amazon-kinesis-video-streams-producer-sdk-cpp
 cd amazon-kinesis-video-streams-producer-sdk-cpp/kinesis-video-native-build
 
