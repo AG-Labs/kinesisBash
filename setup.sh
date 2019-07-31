@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo su
 apt-get update
 "bcm2835-v4l2" >> /etc/modules
