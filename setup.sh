@@ -24,5 +24,3 @@ sudo apt-get install make -y
 echo installing kinesis
 chmod +x min-install-script
 ./min-install-script
-
-reboot
